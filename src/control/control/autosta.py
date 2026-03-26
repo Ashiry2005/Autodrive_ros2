@@ -120,6 +120,10 @@ class AutoStanley(Node):
         throttle_msg.data = float(throttle)
         self.throttle_pub.publish(throttle_msg)
 
+        dist_to_start = np.linalg.norm(np.array([curr_x, curr_y]) - self.waypoints[0])
+        if dist_to_start < 1.0: 
+            self.last_idx = 0
+
         # Debug
         self.get_logger().info(
             f"Idx: {target_idx} | Steer: {steering:.2f} | Error: {cross_track_error:.2f} | V: {curr_v:.2f}"
