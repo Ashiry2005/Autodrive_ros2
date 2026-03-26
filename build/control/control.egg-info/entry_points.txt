@@ -1,0 +1,5 @@
+[console_scripts]
+autostan = control.autosta:main
+controller = control.control:main
+stan = control.stanley:main
+

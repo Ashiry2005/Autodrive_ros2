@@ -1,0 +1,19 @@
+[0.450s] Invoking command in '/home/autodrive_devkit/build/control': PYTHONPATH=/home/autodrive_devkit/build/control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/autodrive_devkit/install/control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/autodrive_devkit/build/control/build --no-deps symlink_data --force
+[0.583s] running develop
+[0.636s] running egg_info
+[0.636s] writing control.egg-info/PKG-INFO
+[0.636s] writing dependency_links to control.egg-info/dependency_links.txt
+[0.637s] writing entry points to control.egg-info/entry_points.txt
+[0.637s] writing requirements to control.egg-info/requires.txt
+[0.637s] writing top-level names to control.egg-info/top_level.txt
+[0.638s] reading manifest file 'control.egg-info/SOURCES.txt'
+[0.638s] writing manifest file 'control.egg-info/SOURCES.txt'
+[0.639s] running build_ext
+[0.639s] Creating /home/autodrive_devkit/install/control/lib/python3.10/site-packages/control.egg-link (link to .)
+[0.640s] Installing controller script to /home/autodrive_devkit/install/control/lib/control
+[0.640s] 
+[0.640s] Installed /home/autodrive_devkit/build/control
+[0.640s] running symlink_data
+[0.640s] symbolically linking /home/autodrive_devkit/build/control/resource/control -> /home/autodrive_devkit/install/control/share/ament_index/resource_index/packages
+[0.640s] symbolically linking /home/autodrive_devkit/build/control/package.xml -> /home/autodrive_devkit/install/control/share/control
+[0.668s] Invoked command in '/home/autodrive_devkit/build/control' returned '0': PYTHONPATH=/home/autodrive_devkit/build/control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/autodrive_devkit/install/control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/autodrive_devkit/build/control/build --no-deps symlink_data --force

@@ -1,0 +1,23 @@
+[0.526s] Invoking command in '/home/autodrive_devkit/build/autodrive_roboracer': PYTHONPATH=/home/autodrive_devkit/build/autodrive_roboracer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/autodrive_devkit/install/autodrive_roboracer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/autodrive_devkit/build/autodrive_roboracer/build --no-deps symlink_data --force
+[0.651s] running develop
+[0.702s] running egg_info
+[0.707s] writing autodrive_roboracer.egg-info/PKG-INFO
+[0.712s] writing dependency_links to autodrive_roboracer.egg-info/dependency_links.txt
+[0.718s] writing entry points to autodrive_roboracer.egg-info/entry_points.txt
+[0.723s] writing requirements to autodrive_roboracer.egg-info/requires.txt
+[0.731s] writing top-level names to autodrive_roboracer.egg-info/top_level.txt
+[0.735s] reading manifest file 'autodrive_roboracer.egg-info/SOURCES.txt'
+[0.737s] writing manifest file 'autodrive_roboracer.egg-info/SOURCES.txt'
+[0.744s] running build_ext
+[0.744s] Creating /home/autodrive_devkit/install/autodrive_roboracer/lib/python3.10/site-packages/autodrive-roboracer.egg-link (link to .)
+[0.745s] Installing autodrive_bridge script to /home/autodrive_devkit/install/autodrive_roboracer/lib/autodrive_roboracer
+[0.750s] Installing teleop_keyboard script to /home/autodrive_devkit/install/autodrive_roboracer/lib/autodrive_roboracer
+[0.750s] 
+[0.750s] Installed /home/autodrive_devkit/build/autodrive_roboracer
+[0.751s] running symlink_data
+[0.765s] symbolically linking /home/autodrive_devkit/build/autodrive_roboracer/resource/autodrive_roboracer -> /home/autodrive_devkit/install/autodrive_roboracer/share/ament_index/resource_index/packages
+[0.765s] symbolically linking /home/autodrive_devkit/build/autodrive_roboracer/package.xml -> /home/autodrive_devkit/install/autodrive_roboracer/share/autodrive_roboracer
+[0.765s] symbolically linking /home/autodrive_devkit/build/autodrive_roboracer/launch/bringup_graphics.launch.py -> /home/autodrive_devkit/install/autodrive_roboracer/share/autodrive_roboracer/launch
+[0.765s] symbolically linking /home/autodrive_devkit/build/autodrive_roboracer/launch/bringup_headless.launch.py -> /home/autodrive_devkit/install/autodrive_roboracer/share/autodrive_roboracer/launch
+[0.770s] symbolically linking /home/autodrive_devkit/build/autodrive_roboracer/rviz/autodrive_roboracer.rviz -> /home/autodrive_devkit/install/autodrive_roboracer/share/autodrive_roboracer/rviz
+[0.787s] Invoked command in '/home/autodrive_devkit/build/autodrive_roboracer' returned '0': PYTHONPATH=/home/autodrive_devkit/build/autodrive_roboracer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/autodrive_devkit/install/autodrive_roboracer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/autodrive_devkit/build/autodrive_roboracer/build --no-deps symlink_data --force

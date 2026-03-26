@@ -1,0 +1,60 @@
+[0.000000] (-) TimerEvent: {}
+[0.000176] (autodrive_roboracer) JobQueued: {'identifier': 'autodrive_roboracer', 'dependencies': OrderedDict()}
+[0.000217] (autodrive_roboracer) JobStarted: {'identifier': 'autodrive_roboracer'}
+[0.098893] (-) TimerEvent: {}
+[0.199115] (-) TimerEvent: {}
+[0.299334] (-) TimerEvent: {}
+[0.399525] (-) TimerEvent: {}
+[0.449426] (autodrive_roboracer) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/autodrive_roboracer', 'build', '--build-base', '/home/autodrive_devkit/build/autodrive_roboracer/build', 'install', '--record', '/home/autodrive_devkit/build/autodrive_roboracer/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/autodrive_devkit/src/autodrive_devkit', 'env': {'HOME': '/root', 'OLDPWD': '/', 'ROS_DISTRO': 'humble', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'C.UTF-8', 'LC_ALL': 'C.UTF-8', 'PWD': '/home/autodrive_devkit/build/autodrive_roboracer', 'COLCON': '1', 'PYTHONPATH': '/home/autodrive_devkit/build/autodrive_roboracer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/autodrive_devkit/install/autodrive_roboracer/lib/python3.10/site-packages:'}, 'shell': False}
+[0.499629] (-) TimerEvent: {}
+[0.552806] (autodrive_roboracer) StdoutLine: {'line': b'running egg_info\n'}
+[0.553416] (autodrive_roboracer) StdoutLine: {'line': b'creating ../../build/autodrive_roboracer/autodrive_roboracer.egg-info\n'}
+[0.553718] (autodrive_roboracer) StdoutLine: {'line': b'writing ../../build/autodrive_roboracer/autodrive_roboracer.egg-info/PKG-INFO\n'}
+[0.553803] (autodrive_roboracer) StdoutLine: {'line': b'writing dependency_links to ../../build/autodrive_roboracer/autodrive_roboracer.egg-info/dependency_links.txt\n'}
+[0.554111] (autodrive_roboracer) StdoutLine: {'line': b'writing entry points to ../../build/autodrive_roboracer/autodrive_roboracer.egg-info/entry_points.txt\n'}
+[0.554200] (autodrive_roboracer) StdoutLine: {'line': b'writing requirements to ../../build/autodrive_roboracer/autodrive_roboracer.egg-info/requires.txt\n'}
+[0.554255] (autodrive_roboracer) StdoutLine: {'line': b'writing top-level names to ../../build/autodrive_roboracer/autodrive_roboracer.egg-info/top_level.txt\n'}
+[0.554306] (autodrive_roboracer) StdoutLine: {'line': b"writing manifest file '../../build/autodrive_roboracer/autodrive_roboracer.egg-info/SOURCES.txt'\n"}
+[0.555696] (autodrive_roboracer) StdoutLine: {'line': b"reading manifest file '../../build/autodrive_roboracer/autodrive_roboracer.egg-info/SOURCES.txt'\n"}
+[0.556499] (autodrive_roboracer) StdoutLine: {'line': b"writing manifest file '../../build/autodrive_roboracer/autodrive_roboracer.egg-info/SOURCES.txt'\n"}
+[0.556623] (autodrive_roboracer) StdoutLine: {'line': b'running build\n'}
+[0.556689] (autodrive_roboracer) StdoutLine: {'line': b'running build_py\n'}
+[0.556939] (autodrive_roboracer) StdoutLine: {'line': b'creating /home/autodrive_devkit/build/autodrive_roboracer/build\n'}
+[0.557061] (autodrive_roboracer) StdoutLine: {'line': b'creating /home/autodrive_devkit/build/autodrive_roboracer/build/lib\n'}
+[0.557123] (autodrive_roboracer) StdoutLine: {'line': b'creating /home/autodrive_devkit/build/autodrive_roboracer/build/lib/autodrive_roboracer\n'}
+[0.557177] (autodrive_roboracer) StdoutLine: {'line': b'copying autodrive_roboracer/config.py -> /home/autodrive_devkit/build/autodrive_roboracer/build/lib/autodrive_roboracer\n'}
+[0.557230] (autodrive_roboracer) StdoutLine: {'line': b'copying autodrive_roboracer/autodrive_bridge.py -> /home/autodrive_devkit/build/autodrive_roboracer/build/lib/autodrive_roboracer\n'}
+[0.557406] (autodrive_roboracer) StdoutLine: {'line': b'copying autodrive_roboracer/__init__.py -> /home/autodrive_devkit/build/autodrive_roboracer/build/lib/autodrive_roboracer\n'}
+[0.557460] (autodrive_roboracer) StdoutLine: {'line': b'copying autodrive_roboracer/teleop_keyboard.py -> /home/autodrive_devkit/build/autodrive_roboracer/build/lib/autodrive_roboracer\n'}
+[0.557535] (autodrive_roboracer) StdoutLine: {'line': b'running install\n'}
+[0.557643] (autodrive_roboracer) StdoutLine: {'line': b'running install_lib\n'}
+[0.558500] (autodrive_roboracer) StdoutLine: {'line': b'creating /home/autodrive_devkit/install/autodrive_roboracer/lib/python3.10/site-packages/autodrive_roboracer\n'}
+[0.558570] (autodrive_roboracer) StdoutLine: {'line': b'copying /home/autodrive_devkit/build/autodrive_roboracer/build/lib/autodrive_roboracer/config.py -> /home/autodrive_devkit/install/autodrive_roboracer/lib/python3.10/site-packages/autodrive_roboracer\n'}
+[0.558728] (autodrive_roboracer) StdoutLine: {'line': b'copying /home/autodrive_devkit/build/autodrive_roboracer/build/lib/autodrive_roboracer/autodrive_bridge.py -> /home/autodrive_devkit/install/autodrive_roboracer/lib/python3.10/site-packages/autodrive_roboracer\n'}
+[0.558858] (autodrive_roboracer) StdoutLine: {'line': b'copying /home/autodrive_devkit/build/autodrive_roboracer/build/lib/autodrive_roboracer/__init__.py -> /home/autodrive_devkit/install/autodrive_roboracer/lib/python3.10/site-packages/autodrive_roboracer\n'}
+[0.559044] (autodrive_roboracer) StdoutLine: {'line': b'copying /home/autodrive_devkit/build/autodrive_roboracer/build/lib/autodrive_roboracer/teleop_keyboard.py -> /home/autodrive_devkit/install/autodrive_roboracer/lib/python3.10/site-packages/autodrive_roboracer\n'}
+[0.559305] (autodrive_roboracer) StdoutLine: {'line': b'byte-compiling /home/autodrive_devkit/install/autodrive_roboracer/lib/python3.10/site-packages/autodrive_roboracer/config.py to config.cpython-310.pyc\n'}
+[0.560063] (autodrive_roboracer) StdoutLine: {'line': b'byte-compiling /home/autodrive_devkit/install/autodrive_roboracer/lib/python3.10/site-packages/autodrive_roboracer/autodrive_bridge.py to autodrive_bridge.cpython-310.pyc\n'}
+[0.563362] (autodrive_roboracer) StdoutLine: {'line': b'byte-compiling /home/autodrive_devkit/install/autodrive_roboracer/lib/python3.10/site-packages/autodrive_roboracer/__init__.py to __init__.cpython-310.pyc\n'}
+[0.563489] (autodrive_roboracer) StdoutLine: {'line': b'byte-compiling /home/autodrive_devkit/install/autodrive_roboracer/lib/python3.10/site-packages/autodrive_roboracer/teleop_keyboard.py to teleop_keyboard.cpython-310.pyc\n'}
+[0.564367] (autodrive_roboracer) StdoutLine: {'line': b'running install_data\n'}
+[0.564486] (autodrive_roboracer) StdoutLine: {'line': b'creating /home/autodrive_devkit/install/autodrive_roboracer/share/ament_index\n'}
+[0.564540] (autodrive_roboracer) StdoutLine: {'line': b'creating /home/autodrive_devkit/install/autodrive_roboracer/share/ament_index/resource_index\n'}
+[0.564588] (autodrive_roboracer) StdoutLine: {'line': b'creating /home/autodrive_devkit/install/autodrive_roboracer/share/ament_index/resource_index/packages\n'}
+[0.564684] (autodrive_roboracer) StdoutLine: {'line': b'copying resource/autodrive_roboracer -> /home/autodrive_devkit/install/autodrive_roboracer/share/ament_index/resource_index/packages\n'}
+[0.564774] (autodrive_roboracer) StdoutLine: {'line': b'copying package.xml -> /home/autodrive_devkit/install/autodrive_roboracer/share/autodrive_roboracer\n'}
+[0.564822] (autodrive_roboracer) StdoutLine: {'line': b'creating /home/autodrive_devkit/install/autodrive_roboracer/share/autodrive_roboracer/launch\n'}
+[0.564935] (autodrive_roboracer) StdoutLine: {'line': b'copying launch/bringup_graphics.launch.py -> /home/autodrive_devkit/install/autodrive_roboracer/share/autodrive_roboracer/launch\n'}
+[0.564983] (autodrive_roboracer) StdoutLine: {'line': b'copying launch/bringup_headless.launch.py -> /home/autodrive_devkit/install/autodrive_roboracer/share/autodrive_roboracer/launch\n'}
+[0.565070] (autodrive_roboracer) StdoutLine: {'line': b'creating /home/autodrive_devkit/install/autodrive_roboracer/share/autodrive_roboracer/rviz\n'}
+[0.565114] (autodrive_roboracer) StdoutLine: {'line': b'copying rviz/autodrive_roboracer.rviz -> /home/autodrive_devkit/install/autodrive_roboracer/share/autodrive_roboracer/rviz\n'}
+[0.565159] (autodrive_roboracer) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.566567] (autodrive_roboracer) StdoutLine: {'line': b'Copying ../../build/autodrive_roboracer/autodrive_roboracer.egg-info to /home/autodrive_devkit/install/autodrive_roboracer/lib/python3.10/site-packages/autodrive_roboracer-0.1.0-py3.10.egg-info\n'}
+[0.567342] (autodrive_roboracer) StdoutLine: {'line': b'running install_scripts\n'}
+[0.584426] (autodrive_roboracer) StdoutLine: {'line': b'Installing autodrive_bridge script to /home/autodrive_devkit/install/autodrive_roboracer/lib/autodrive_roboracer\n'}
+[0.584514] (autodrive_roboracer) StdoutLine: {'line': b'Installing teleop_keyboard script to /home/autodrive_devkit/install/autodrive_roboracer/lib/autodrive_roboracer\n'}
+[0.584680] (autodrive_roboracer) StdoutLine: {'line': b"writing list of installed files to '/home/autodrive_devkit/build/autodrive_roboracer/install.log'\n"}
+[0.598100] (autodrive_roboracer) CommandEnded: {'returncode': 0}
+[0.599680] (-) TimerEvent: {}
+[0.610557] (autodrive_roboracer) JobEnded: {'identifier': 'autodrive_roboracer', 'rc': 0}
+[0.611177] (-) EventReactorShutdown: {}

@@ -1,0 +1,36 @@
+[0.457s] Invoking command in '/home/autodrive_devkit/build/control': PYTHONPATH=/home/autodrive_devkit/build/control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/autodrive_devkit/install/control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/autodrive_devkit/build/control/build
+[0.586s] running develop
+[0.651s] Removing /home/autodrive_devkit/install/control/lib/python3.10/site-packages/control.egg-link (link to .)
+[0.672s] Invoked command in '/home/autodrive_devkit/build/control' returned '0': PYTHONPATH=/home/autodrive_devkit/build/control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/autodrive_devkit/install/control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/autodrive_devkit/build/control/build
+[0.673s] Invoking command in '/home/autodrive_devkit/src/control': PYTHONPATH=/home/autodrive_devkit/build/control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/autodrive_devkit/install/control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/control build --build-base /home/autodrive_devkit/build/control/build install --record /home/autodrive_devkit/build/control/install.log --single-version-externally-managed install_data --force
+[0.789s] running egg_info
+[0.789s] writing ../../build/control/control.egg-info/PKG-INFO
+[0.789s] writing dependency_links to ../../build/control/control.egg-info/dependency_links.txt
+[0.789s] writing entry points to ../../build/control/control.egg-info/entry_points.txt
+[0.789s] writing requirements to ../../build/control/control.egg-info/requires.txt
+[0.789s] writing top-level names to ../../build/control/control.egg-info/top_level.txt
+[0.791s] reading manifest file '../../build/control/control.egg-info/SOURCES.txt'
+[0.791s] writing manifest file '../../build/control/control.egg-info/SOURCES.txt'
+[0.791s] running build
+[0.791s] running build_py
+[0.792s] creating /home/autodrive_devkit/build/control/build
+[0.792s] creating /home/autodrive_devkit/build/control/build/lib
+[0.792s] creating /home/autodrive_devkit/build/control/build/lib/control
+[0.792s] copying control/__init__.py -> /home/autodrive_devkit/build/control/build/lib/control
+[0.792s] copying control/control.py -> /home/autodrive_devkit/build/control/build/lib/control
+[0.792s] running install
+[0.792s] running install_lib
+[0.793s] creating /home/autodrive_devkit/install/control/lib/python3.10/site-packages/control
+[0.793s] copying /home/autodrive_devkit/build/control/build/lib/control/__init__.py -> /home/autodrive_devkit/install/control/lib/python3.10/site-packages/control
+[0.793s] copying /home/autodrive_devkit/build/control/build/lib/control/control.py -> /home/autodrive_devkit/install/control/lib/python3.10/site-packages/control
+[0.793s] byte-compiling /home/autodrive_devkit/install/control/lib/python3.10/site-packages/control/__init__.py to __init__.cpython-310.pyc
+[0.793s] byte-compiling /home/autodrive_devkit/install/control/lib/python3.10/site-packages/control/control.py to control.cpython-310.pyc
+[0.793s] running install_data
+[0.794s] copying resource/control -> /home/autodrive_devkit/install/control/share/ament_index/resource_index/packages
+[0.794s] copying package.xml -> /home/autodrive_devkit/install/control/share/control
+[0.794s] running install_egg_info
+[0.795s] Copying ../../build/control/control.egg-info to /home/autodrive_devkit/install/control/lib/python3.10/site-packages/control-0.0.0-py3.10.egg-info
+[0.796s] running install_scripts
+[0.811s] Installing controller script to /home/autodrive_devkit/install/control/lib/control
+[0.813s] writing list of installed files to '/home/autodrive_devkit/build/control/install.log'
+[0.834s] Invoked command in '/home/autodrive_devkit/src/control' returned '0': PYTHONPATH=/home/autodrive_devkit/build/control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/autodrive_devkit/install/control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/control build --build-base /home/autodrive_devkit/build/control/build install --record /home/autodrive_devkit/build/control/install.log --single-version-externally-managed install_data --force
