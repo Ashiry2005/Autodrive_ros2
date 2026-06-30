@@ -24,7 +24,7 @@ class PurePursuit(Node):
         # =============================
         # Vehicle / Controller Parameters
         # =============================
-        self.wheelbase = 0.33          # meters, adjust to your platform
+        self.wheelbase = 0.324         # meters, adjust to your platform
         self.min_lookahead = 0.05      # meters
         self.max_lookahead = 4       # meters
         self.lookahead_gain = 0.5      # how much lookahead grows with speed
@@ -32,8 +32,8 @@ class PurePursuit(Node):
 
         # Speed targets
         self.max_throttle = 0.25
-        self.min_throttle = 0.08
-        self.curvature_slowdown_gain = 2.5
+        self.min_throttle = 0.03
+        self.curvature_slowdown_gain = 2.8
 
         # =============================
         # Publishers / Subscribers
