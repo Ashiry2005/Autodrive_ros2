@@ -26,7 +26,8 @@ setup(
         'console_scripts': [
             "controller = control.control:main",
             "stan = control.stanley:main",
-            "autostan = control.autosta:main"
+            "autostan = control.autosta:main",
+            "persuit = control.pure_persuit:main"
         ],
     },
 )
